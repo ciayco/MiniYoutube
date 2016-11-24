@@ -55,10 +55,10 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(16, 324)
+        Me.ListBox1.Location = New System.Drawing.Point(12, 263)
+        Me.ListBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(38, 36)
+        Me.ListBox1.Size = New System.Drawing.Size(30, 30)
         Me.ListBox1.TabIndex = 1
         Me.ListBox1.Visible = False
         '
@@ -70,29 +70,30 @@ Partial Class Form1
         Me.ListBox2.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.ListBox2.ForeColor = System.Drawing.Color.CornflowerBlue
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.ItemHeight = 19
-        Me.ListBox2.Location = New System.Drawing.Point(356, 51)
-        Me.ListBox2.MaximumSize = New System.Drawing.Size(280, 210)
+        Me.ListBox2.ItemHeight = 15
+        Me.ListBox2.Location = New System.Drawing.Point(267, 41)
+        Me.ListBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox2.MaximumSize = New System.Drawing.Size(210, 171)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(280, 190)
+        Me.ListBox2.Size = New System.Drawing.Size(210, 150)
         Me.ListBox2.TabIndex = 2
         '
         'ContextMenuStrip1
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.LinkKopyalaToolStripMenuItem, Me.İndirToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(190, 52)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(163, 48)
         '
         'LinkKopyalaToolStripMenuItem
         '
         Me.LinkKopyalaToolStripMenuItem.Name = "LinkKopyalaToolStripMenuItem"
-        Me.LinkKopyalaToolStripMenuItem.Size = New System.Drawing.Size(189, 24)
+        Me.LinkKopyalaToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.LinkKopyalaToolStripMenuItem.Text = "Link Kopyala"
         '
         'İndirToolStripMenuItem
         '
         Me.İndirToolStripMenuItem.Name = "İndirToolStripMenuItem"
-        Me.İndirToolStripMenuItem.Size = New System.Drawing.Size(189, 24)
+        Me.İndirToolStripMenuItem.Size = New System.Drawing.Size(162, 22)
         Me.İndirToolStripMenuItem.Text = "Mp3 Olarak İndir"
         '
         'Button1
@@ -101,9 +102,10 @@ Partial Class Form1
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.Button1.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button1.Location = New System.Drawing.Point(16, 241)
+        Me.Button1.Location = New System.Drawing.Point(12, 196)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 29)
+        Me.Button1.Size = New System.Drawing.Size(56, 24)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "Search"
         Me.Button1.UseVisualStyleBackColor = False
@@ -114,9 +116,10 @@ Partial Class Form1
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.Button2.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button2.Location = New System.Drawing.Point(248, 241)
+        Me.Button2.Location = New System.Drawing.Point(186, 196)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 29)
+        Me.Button2.Size = New System.Drawing.Size(56, 24)
         Me.Button2.TabIndex = 4
         Me.Button2.Text = "Play"
         Me.Button2.UseVisualStyleBackColor = False
@@ -125,9 +128,10 @@ Partial Class Form1
         '
         Me.TextBox1.BackColor = System.Drawing.Color.Black
         Me.TextBox1.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.TextBox1.Location = New System.Drawing.Point(97, 245)
+        Me.TextBox1.Location = New System.Drawing.Point(73, 199)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(145, 22)
+        Me.TextBox1.Size = New System.Drawing.Size(110, 20)
         Me.TextBox1.TabIndex = 5
         '
         'Button3
@@ -136,9 +140,10 @@ Partial Class Form1
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button3.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button3.Location = New System.Drawing.Point(331, 52)
+        Me.Button3.Location = New System.Drawing.Point(248, 42)
+        Me.Button3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(20, 74)
+        Me.Button3.Size = New System.Drawing.Size(15, 60)
         Me.Button3.TabIndex = 6
         Me.Button3.Text = "H"
         Me.Button3.UseVisualStyleBackColor = False
@@ -148,9 +153,10 @@ Partial Class Form1
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.BackColor = System.Drawing.Color.Black
         Me.CheckBox1.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.CheckBox1.Location = New System.Drawing.Point(122, 324)
+        Me.CheckBox1.Location = New System.Drawing.Point(92, 263)
+        Me.CheckBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.CheckBox1.Name = "CheckBox1"
-        Me.CheckBox1.Size = New System.Drawing.Size(100, 21)
+        Me.CheckBox1.Size = New System.Drawing.Size(81, 17)
         Me.CheckBox1.TabIndex = 8
         Me.CheckBox1.Text = "CheckBox1"
         Me.CheckBox1.UseVisualStyleBackColor = False
@@ -162,9 +168,10 @@ Partial Class Form1
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button4.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button4.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button4.Location = New System.Drawing.Point(546, 242)
+        Me.Button4.Location = New System.Drawing.Point(410, 197)
+        Me.Button4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 29)
+        Me.Button4.Size = New System.Drawing.Size(56, 24)
         Me.Button4.TabIndex = 9
         Me.Button4.Text = "Close"
         Me.Button4.UseVisualStyleBackColor = False
@@ -175,9 +182,10 @@ Partial Class Form1
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button5.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button5.Location = New System.Drawing.Point(461, 242)
+        Me.Button5.Location = New System.Drawing.Point(346, 197)
+        Me.Button5.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(82, 29)
+        Me.Button5.Size = New System.Drawing.Size(62, 24)
         Me.Button5.TabIndex = 10
         Me.Button5.Text = "Settings"
         Me.Button5.UseVisualStyleBackColor = False
@@ -189,9 +197,10 @@ Partial Class Form1
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button6.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button6.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button6.Location = New System.Drawing.Point(331, 129)
+        Me.Button6.Location = New System.Drawing.Point(248, 105)
+        Me.Button6.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(20, 112)
+        Me.Button6.Size = New System.Drawing.Size(15, 91)
         Me.Button6.TabIndex = 11
         Me.Button6.Text = "List"
         Me.Button6.UseVisualStyleBackColor = False
@@ -202,11 +211,12 @@ Partial Class Form1
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button7.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button7.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button7.Location = New System.Drawing.Point(353, 241)
+        Me.Button7.Location = New System.Drawing.Point(265, 196)
+        Me.Button7.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(105, 29)
+        Me.Button7.Size = New System.Drawing.Size(79, 24)
         Me.Button7.TabIndex = 12
-        Me.Button7.Text = "Add to list"
+        Me.Button7.Text = "Add to List"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'ListBox3
@@ -216,21 +226,22 @@ Partial Class Form1
         Me.ListBox3.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle))
         Me.ListBox3.ForeColor = System.Drawing.Color.CornflowerBlue
         Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.ItemHeight = 19
-        Me.ListBox3.Location = New System.Drawing.Point(357, 52)
-        Me.ListBox3.MaximumSize = New System.Drawing.Size(280, 210)
+        Me.ListBox3.ItemHeight = 15
+        Me.ListBox3.Location = New System.Drawing.Point(268, 42)
+        Me.ListBox3.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.ListBox3.MaximumSize = New System.Drawing.Size(210, 171)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(280, 190)
+        Me.ListBox3.Size = New System.Drawing.Size(210, 150)
         Me.ListBox3.TabIndex = 13
         Me.ListBox3.Visible = False
         '
         'ListBox4
         '
         Me.ListBox4.FormattingEnabled = True
-        Me.ListBox4.ItemHeight = 16
-        Me.ListBox4.Location = New System.Drawing.Point(16, 366)
+        Me.ListBox4.Location = New System.Drawing.Point(12, 297)
+        Me.ListBox4.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.ListBox4.Name = "ListBox4"
-        Me.ListBox4.Size = New System.Drawing.Size(35, 36)
+        Me.ListBox4.Size = New System.Drawing.Size(27, 30)
         Me.ListBox4.TabIndex = 14
         Me.ListBox4.Visible = False
         '
@@ -238,19 +249,21 @@ Partial Class Form1
         '
         Me.AxShockwaveFlash1.Enabled = True
         Me.AxShockwaveFlash1.Location = New System.Drawing.Point(11, 42)
-        Me.AxShockwaveFlash1.MaximumSize = New System.Drawing.Size(310, 190)
-        Me.AxShockwaveFlash1.MinimumSize = New System.Drawing.Size(310, 190)
+        Me.AxShockwaveFlash1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.AxShockwaveFlash1.MaximumSize = New System.Drawing.Size(232, 154)
+        Me.AxShockwaveFlash1.MinimumSize = New System.Drawing.Size(232, 154)
         Me.AxShockwaveFlash1.Name = "AxShockwaveFlash1"
         Me.AxShockwaveFlash1.OcxState = CType(resources.GetObject("AxShockwaveFlash1.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxShockwaveFlash1.Size = New System.Drawing.Size(310, 190)
+        Me.AxShockwaveFlash1.Size = New System.Drawing.Size(232, 154)
         Me.AxShockwaveFlash1.TabIndex = 16
         '
         'WebBrowser1
         '
-        Me.WebBrowser1.Location = New System.Drawing.Point(60, 324)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser1.Location = New System.Drawing.Point(45, 263)
+        Me.WebBrowser1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(15, 16)
         Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(35, 36)
+        Me.WebBrowser1.Size = New System.Drawing.Size(26, 29)
         Me.WebBrowser1.TabIndex = 7
         Me.WebBrowser1.Visible = False
         '
@@ -263,9 +276,10 @@ Partial Class Form1
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Comic Sans MS", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(162, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.CornflowerBlue
-        Me.Button8.Location = New System.Drawing.Point(331, 24)
+        Me.Button8.Location = New System.Drawing.Point(248, 20)
+        Me.Button8.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(20, 22)
+        Me.Button8.Size = New System.Drawing.Size(15, 18)
         Me.Button8.TabIndex = 17
         Me.Button8.Text = "T"
         Me.Button8.UseVisualStyleBackColor = False
@@ -280,29 +294,29 @@ Partial Class Form1
         '
         Me.ContextMenuStrip2.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.GösterToolStripMenuItem, Me.ÇıkışToolStripMenuItem})
         Me.ContextMenuStrip2.Name = "ContextMenuStrip2"
-        Me.ContextMenuStrip2.Size = New System.Drawing.Size(122, 52)
+        Me.ContextMenuStrip2.Size = New System.Drawing.Size(109, 48)
         '
         'GösterToolStripMenuItem
         '
         Me.GösterToolStripMenuItem.Name = "GösterToolStripMenuItem"
-        Me.GösterToolStripMenuItem.Size = New System.Drawing.Size(121, 24)
+        Me.GösterToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.GösterToolStripMenuItem.Text = "Göster"
         '
         'ÇıkışToolStripMenuItem
         '
         Me.ÇıkışToolStripMenuItem.Name = "ÇıkışToolStripMenuItem"
-        Me.ÇıkışToolStripMenuItem.Size = New System.Drawing.Size(121, 24)
+        Me.ÇıkışToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.ÇıkışToolStripMenuItem.Text = "Çıkış"
         '
         'Form1
         '
         Me.AcceptButton = Me.Button1
         Me.AllowDrop = True
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.MidnightBlue
         Me.CancelButton = Me.Button6
-        Me.ClientSize = New System.Drawing.Size(645, 296)
+        Me.ClientSize = New System.Drawing.Size(484, 240)
         Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.AxShockwaveFlash1)
         Me.Controls.Add(Me.ListBox4)
@@ -322,6 +336,7 @@ Partial Class Form1
         Me.DoubleBuffered = True
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Location = New System.Drawing.Point(1055, 130)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
